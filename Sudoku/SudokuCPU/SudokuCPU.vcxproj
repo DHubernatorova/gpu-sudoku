@@ -142,11 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Backtracking.cpp" />
     <ClCompile Include="Sudoku.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Backtracking.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

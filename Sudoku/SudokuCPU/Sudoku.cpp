@@ -182,7 +182,7 @@ bool solveHelper(int *board) {
 		return true;
 	}
 
-	for (int attempt = 1; attempt <= N; k++) { // try
+	for (int attempt = 1; attempt <= N; attempt++) { // try
 		board[row * N + col] = attempt;
 		if (isBoardValid(board, row, col) && solveHelper(board)) {
 			return true;
